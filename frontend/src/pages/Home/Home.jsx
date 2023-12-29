@@ -1,7 +1,7 @@
 import React from 'react';
 import './home.css';
 
-const Home1 = () => {
+const Home = () => {
     return (
       <div>
         <header>
@@ -73,4 +73,4 @@ const Home1 = () => {
     );
   }
 
-  export default Home1;
+  export default Home;

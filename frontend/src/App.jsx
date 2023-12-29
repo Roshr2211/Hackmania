@@ -2,7 +2,7 @@
 
 import React from 'react';
 //import Home from './components/Home';
-import Home from './pages/Home/Home1.';
+import Home from './pages/Home/Home';
 //import Home from './pages/Home/Home.jsx';
 
 const App = () => {
