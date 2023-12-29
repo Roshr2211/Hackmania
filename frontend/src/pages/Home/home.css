@@ -1,0 +1,108 @@
+:root {
+    --primary-color: #3498db;
+    --background-light: #f4f4f4;
+    --text-color: #555;
+    --background-dark: #333;
+    --success-color: #27ae60;
+  }
+  
+  /* Reset some default styles */
+  body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set up basic styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: var(--background-dark);
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav li {
+    cursor: pointer;
+  }
+  
+  /* Hero, Features, Testimonials, and CTA section styles */
+  .hero,
+  .cta,
+  .features,
+  .testimonials {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    color: var(--text-color);
+    margin-bottom: 30px;
+  }
+  
+  .hero button,
+  .cta button {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .features,
+  .testimonials {
+    background-color: var(--background-light);
+  }
+  
+  .features div,
+  .testimonials div {
+    text-align: center;
+  }
+  
+  .features i {
+    font-size: 2em;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+  }
+  
+  .features h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .features p,
+  .testimonials p {
+    color: var(--text-color);
+  }
+  
+  /* Call-to-Action section styles */
+  .cta button:hover,
+  .hero button:hover,
+  nav li:hover {
+    background-color: darken(var(--primary-color), 10%);
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--background-dark);
+    color: #fff;
+  }
+  
