@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Headside from './components/Headside/Headside';
 import Home from './pages/Home/Home';
+import AboutUs from './pages/aboutus/Aboutus';
 import StudyGroups from './pages/StudyGroups/StudyGroups';
 import Schedule from './pages/Schedule/Schedule';
 import UserProfile from './pages/UserProfile/UserProfile';
@@ -17,6 +18,7 @@ const App = () => {
           <div className="content-container">
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/aboutus" element={<AboutUs />} />
               <Route path="/groups" element={<StudyGroups />} />
               <Route path="/schedule" element={<Schedule />} />
               <Route path="/profile" element={<UserProfile />} />

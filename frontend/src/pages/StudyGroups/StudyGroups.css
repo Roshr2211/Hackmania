@@ -1,0 +1,61 @@
+.study-groups-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .study-group-search-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+  }
+  
+  .study-group-search-container input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .study-group-search-container button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #2ecc71; /* Green color */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .study-group-search-container button:hover {
+    background-color: #27ae60; /* Darker green color on hover */
+  }
+  
+  .study-group-list-container {
+    margin-top: 80px; /* Adjust the margin-top based on your layout */
+  }
+  
+  .study-group-list-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .study-group-list-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .study-group-list-container li {
+    margin-bottom: 20px;
+  }
+  
+  /* Add any additional styles as needed */
+  
