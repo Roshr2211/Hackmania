@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #000000, #070624); /* Black to Blue gradient */
+    color: #ffffff; /* White text color */
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main-container {
+    display: flex;
+    flex: 1;
+  }
+  
+  .content-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Neon glowing text effect */
+  h1, h2, h3, h4, h5, h6, p {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Neon glowing white text effect */
+  }
+  
+  /* Add any additional global styles or overrides here */
+  
